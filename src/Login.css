@@ -1,0 +1,62 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 5px rgba(235, 240, 81, 0.598);
+    border: 5px solid #9ef5a6 ;
+    border-radius: 1.5px;
+    position: absolute;
+    top: 12.5%;
+    left: 25%;
+    z-index: 10;
+    width: 50vw;
+    height: 75vh;
+    padding: 20px;
+    text-align: center;
+}
+.text > img{
+    width: 30vw;
+    height: fit-content;
+}
+#login-btn{
+    display: block;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: #be943b;
+    font-weight: 700;
+    width: 20vw;
+    color: white;
+    size-adjust: fit-content;
+    text-decoration: none;
+}
+
+body,html{
+    height: 100%;
+}
+
+.bg-img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background: url("https://cdn.shopify.com/s/files/1/0566/6586/6400/files/playlist.jpg?v=1626009406") no-repeat center;
+    background-size: cover;
+    filter: blur(5px);
+}
+.bottom{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bottom > p{
+    font-weight: 300;
+}

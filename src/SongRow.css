@@ -1,0 +1,42 @@
+.songrow{
+    margin-left: 2em;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: overlay;
+    color: white;
+}
+.play{
+    margin-right: 2em;
+}
+.info{
+    margin-left: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    color: white;
+}
+.songrow:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+.songrow_info{
+    margin-left: 20px;
+}
+.songrow_info > h1{
+    font-size: 16px;
+    margin: 5px;
+}
+.songrow_info > p{
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
+.songrow_album{
+    height: 45px;
+    width: 45px;
+}
