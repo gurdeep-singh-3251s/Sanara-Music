@@ -1,5 +1,5 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://sanara-music.vercel.app/";
 const clientId = '01854141390c4c11acdb8b2e38904150';
 
 const scopes = [
